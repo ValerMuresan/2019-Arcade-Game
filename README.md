@@ -30,8 +30,8 @@
 ## Run The Game
 
 The game can be:
-- Played [online]().
-- Downloaded from `insert here the link` .
+- Played [online]( https://valermuresan.github.io/2019-Arcade-Game/).
+- Downloaded from `https://github.com/ValerMuresan/2019-Arcade-Game.git`.
 
 ## Dependencies
 
