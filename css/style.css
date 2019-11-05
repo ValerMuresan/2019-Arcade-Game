@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    background-color: #f7e2a6;
+}
+.time {
+  margin: 0px auto 0px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  border: inset 2px;
+  border-color: grey;
+  width: 501px;
+  height: 27px;
+  border-radius: 12px;
+  padding-top: 5px;
+}
+.score-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: outset 5px;
+  width: 495px;
+  height: 41px;
+  margin: 5px auto -45px;
+  border-radius: 5px;
+  border-color: grey;
+}
+.hearts {
+  font-size: 1.3em;
+}
+.hearts li {
+  display: inline-block;
+  margin-right: 7px;
+  margin-top: 5px;
+  font-size: 30px;
+  color: red;
+}
+#points-panel {
+  font-size: 1.3em;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+#move-directions {
+  border: outset 5px;
+  border-color: grey;
+  width: 495px;
+  height: 46px;
+  margin: -20px auto 10px;
+  border-radius: 5px;
+}
+.mobile-moves button {
+  display: inline-block;
+  background-color: #f7e2a6;
+  border: none;
+  color: #472b30;
+  outline: 0;
+  font-size: 35px;
+  margin-right: 10px;
+}
+#long-button {
+  margin: -5px auto 0px;
+  display: inline-block;
+  width: 501px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: inset 2px;
+  border-color: #472b30;
+  outline: 0;
+  background: linear-gradient(90deg, rgba(150,4,20,1) 0%, rgba(20,29,6,1) 67%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#long-button:active {
+  transform: scale(.70);
+  transition: transform .3s;
+}
+#start-modal {
+  position: absolute;
+    heigth: 100vw;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:   rgba(0, 0, 100, 0.3);
+    cursor: default;
+    z-index: 1;
+    display: none;
+}
+.start-container {
+    margin: 3% auto;
+    color: white;
+    background: linear-gradient(90deg, rgba(150,4,20,1) 0%, rgba(20,29,6,1) 67%);
+    height: 70%;
+    width: 50%;
+    font-size: 1.3em;
+    padding: 35px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 15px;
+}
+.start-container li {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.start-container h2 h3 {
+  font-weight: bold;
+}
+.start-container input {
+  margin-top: -30px;
+  height: 100px;
+  outline: 0;
+}
+input:active {
+  transform: scale(.90);
+  transition: transform .3s;
+}

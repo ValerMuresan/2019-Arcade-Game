@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Project from UDACITY-FEWDN: Arcade Game Clone">
+    <meta name="author" content="Valer Muresan">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cross The Street</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="start-modal">
+  <div class="start-container">
+  <h2>Cross the road!</h2>
+  <h3>Game Instructions</h3>
+  <p>Player control:
+  <ul>
+    <li>Arrow Left - move left </li>
+    <li>Arrow Up- move up   </li>
+    <li>Arrow Down - move down </li>
+    <li>Arrow Right - move right</li>
+  </ul></p>
+  <p>Touch the water and win 1 point.</p>
+  <p>Pet a bug and lose 1 life.</p>
+  <h3>Control on mobile devices.</h3>
+  <p>Use the bottom arrows to drive the player.</p>
+  <h2><strong>Enjoy the game!</strong></h2>
+  <p>Click the <strong>Key</strong> to start.</p>
+  <div class="game-key">
+    <input type="image" src="images/Key.png"/>
+  </div>
+</div>
+</div>
+  <div class="time">00:00:00</div>
+<section class="score-panel">
+  <ul class="hearts">Lives:
+    <li><i class="fas fa-heart"></i></li>
+    <li><i class="fas fa-heart"></i></li>
+    <li><i class="fas fa-heart"></i></li>
+  </ul>
+  <div id="points-panel">
+    <span class="points">Points: 0 </span>
+  </div>
+</section>
+<div class="canvas-inside"></div>
+<div class="mobile-moves">
+  <div id="move-directions">
+  <button class="move-left"><i class="fas fa-arrow-left"></i></button>
+  <button class="move-up"><i class="fas fa-arrow-up"></i></button>
+  <button class="move-down"><i class="fas fa-arrow-down"></i></button>
+  <button class="move-right"><i class="fas fa-arrow-right"></i></button>
+  </div>
+</div>
+<button id="long-button">Restart</button>
+    <script src="https://kit.fontawesome.com/d7424b00b3.js" crossorigin="anonymous"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
