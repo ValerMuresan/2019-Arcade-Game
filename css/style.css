@@ -4,7 +4,7 @@ body {
     background-color: #f7e2a6;
 }
 .time {
-  margin: 0px auto 0px;
+  margin: -5px auto 0px;
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@ body {
   border: outset 5px;
   width: 495px;
   height: 41px;
-  margin: 5px auto -45px;
+  margin: 3px auto -45px;
   border-radius: 5px;
   border-color: grey;
 }
@@ -46,8 +46,8 @@ body {
   border: outset 5px;
   border-color: grey;
   width: 495px;
-  height: 46px;
-  margin: -20px auto 10px;
+  height: 50px;
+  margin: -22px auto 10px;
   border-radius: 5px;
 }
 .mobile-moves button {
@@ -56,14 +56,14 @@ body {
   border: none;
   color: #472b30;
   outline: 0;
-  font-size: 35px;
-  margin-right: 10px;
+  font-size: 40px;
+  margin-left: 35px;
 }
 #long-button {
   margin: -5px auto 0px;
   display: inline-block;
   width: 501px;
-  height: 32px;
+  height: 38px;
   align-items: center;
   justify-content: center;
   border-radius: 12px;
