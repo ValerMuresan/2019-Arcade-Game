@@ -8,13 +8,13 @@ body {
   display: inline-block;
   align-items: center;
   justify-content: center;
-  font-size: 1.2em;
+  font-size: 1em;
   border: inset 2px;
   border-color: grey;
   width: 501px;
-  height: 27px;
+  height: 20px;
   border-radius: 12px;
-  padding-top: 5px;
+  padding-top: 3px;
 }
 .score-panel {
   display: flex;
@@ -22,19 +22,19 @@ body {
   justify-content: center;
   border: outset 5px;
   width: 495px;
-  height: 41px;
+  height: 36px;
   margin: 3px auto -45px;
   border-radius: 5px;
   border-color: grey;
 }
 .hearts {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .hearts li {
   display: inline-block;
   margin-right: 7px;
   margin-top: 5px;
-  font-size: 30px;
+  font-size: 28px;
   color: red;
 }
 #points-panel {
@@ -49,6 +49,8 @@ body {
   height: 50px;
   margin: -22px auto 10px;
   border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 .mobile-moves button {
   display: inline-block;
@@ -56,8 +58,8 @@ body {
   border: none;
   color: #472b30;
   outline: 0;
-  font-size: 40px;
-  margin-left: 35px;
+  font-size: 52px;
+  margin-left: 45px;
 }
 #long-button {
   margin: -5px auto 0px;
